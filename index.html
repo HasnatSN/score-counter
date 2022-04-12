@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
     <title>Score Counter</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Score Counter🎯</h1>
+    </header>
+    <main>
+      <section class="desc">
+        <h2>Click on the team logos to add points!</h2>
+      </section>
+      <section class="scoreboard">
+        <div class="team-1">9</div>
+        <div>:</div>
+        <div class="team-2">1</div>
+      </section>
+
+      <section class="buttons-add-points">
+        <button data-add="team-1">🐯</button>
+        <button data-add="team-2">🐵</button>
+      </section>
+
+      <section class="buttons-deduct-points">
+        <button class="minus" data-sub="team-1">⛔</button>
+        <button class="minus" data-sub="team-2">⛔</button>
+      </section>
+    </main>
+    <footer>Developed by HSN</footer>
+  </body>
 </html>

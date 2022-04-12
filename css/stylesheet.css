@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    background-color: #394867;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #14274E;
+    color: #F1F6F9;
+    min-width: 550px;
+    
+}
+
+main {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    font-size: 12rem;
+    gap: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.team-1, .team-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.team-1 {
+    text-align: right;
+}
+
+.buttons-add-points {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 1.5rem;
+    font-size: 5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: #394867;
+}
+
+button:hover {
+    background-color: #5d719a;
+}
+
+.buttons-deduct-points {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.minus {
+    font-size: 2.5rem;
+}
+
+footer {
+    text-align: center;
+    width: 100vw;
+}
