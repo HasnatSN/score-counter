@@ -85,3 +85,18 @@ footer {
     text-align: center;
     width: 100vw;
 }
+
+/* MEDIA QUERIES  */
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #scoreboard {
+        font-size: 26px;
+    }
+
+    
+
+}
