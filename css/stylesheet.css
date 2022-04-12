@@ -11,10 +11,11 @@ html {
 
 header {
     background-color: #394867;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding: 1rem;
     font-size: 2rem;
+    margin: 0;
 }
 
 body {
@@ -83,7 +84,7 @@ button:hover {
 
 footer {
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 
 /* MEDIA QUERIES  */
@@ -97,6 +98,9 @@ footer {
         font-size: 26px;
     }
 
-    
+    main {
+        height: 100%;
+    }
+
 
 }
