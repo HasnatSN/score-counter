@@ -101,5 +101,14 @@ footer {
     h1 {
       font-size: 40px;
     }
+
+    .scoreboard {
+        font-size: 50px;
+    }
+
+    .team-1, .team-2 {
+        width: 300px;
+    }
+
   }
   
