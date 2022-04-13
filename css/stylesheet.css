@@ -88,7 +88,7 @@ footer {
 
 /* MEDIA QUERIES  */
 
-@media (max-width: 750px) {
+@media (max-width: 550px) {
     h1 {
         font-size: 40px;
     }
