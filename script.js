@@ -2,7 +2,6 @@ const addButtons = document.querySelectorAll("[data-add]");
 const subButtons = document.querySelectorAll("[data-sub]");
 const teamOneScoreboard = document.querySelector(".team-1");
 const teamTwoScoreboard = document.querySelector(".team-2");
-
 let teamOneScore = 0;
 let teamTwoScore = 0;
 
