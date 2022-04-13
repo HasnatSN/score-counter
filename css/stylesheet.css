@@ -11,7 +11,7 @@ html {
 
 header {
   background-color: #364563;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding: 1rem;
   font-size: 2rem;
@@ -89,15 +89,17 @@ footer {
 /* MEDIA QUERIES  */
 
 @media (max-width: 550px) {
-  h1 {
-    font-size: 40px;
-  }
 
-  #scoreboard {
-    font-size: 26px;
-  }
+    body, main, .scoreboard {
+        width: 100%;
+    }
 
-  main {
-    height: 100%;
+    header {
+        width: 100vw;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
   }
-}
+  
